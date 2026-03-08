@@ -32,7 +32,7 @@ The system operates entirely within the AWS Free Tier using highly scalable, ser
 ## 🚀 How to Run (Architecture Replication)
 1. Configure AWS CLI with IAM credentials.
 2. Spin up the Kinesis Data Stream using the AWS Console or boto3.
-3. Deploy the `lambda_function.py` and set the `GEMINI_API_KEY` as an environment variable. Give the Lambda execution role `AmazonS3FullAccess`.
+3. Deploy the `stream_processor_lambda.py` and set the `GEMINI_API_KEY` as an environment variable. Give the Lambda execution role `AmazonS3FullAccess`.
 4. Run `advanced_producer.py` locally to begin streaming synthetic data.
 5. Execute the Athena DDL queries to build the schema over the S3 bucket and run `MSCK REPAIR TABLE` to load partitions.
 
