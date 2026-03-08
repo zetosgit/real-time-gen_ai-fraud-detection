@@ -4,7 +4,6 @@
 An end-to-end, serverless data pipeline that ingests real-time financial transactions and leverages Generative AI (Google Gemini 2.5 Flash) to evaluate contextual fraud risk on the fly. This project was built with a strict focus on cost-optimization, micro-batching, and the Medallion Data Lake architecture.
 
 ![Power BI Dashboard](./dashboard.png)
-*(Note: Upload your Power BI screenshot to the repo and name it dashboard.png for this image to load!)*
 
 ## 🏗️ Cloud Architecture
 
